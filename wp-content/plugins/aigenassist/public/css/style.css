@@ -1,0 +1,51 @@
+```css
+/* Main CSS file for AIGENASSIST plugin */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#dashboard-container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#plugin-description-input, 
+#command-input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+#generated-code-display {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+#settings-form {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+#settings-form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#settings-form input[type="submit"]:hover {
+    background-color: #009fd4;
+}
+```
